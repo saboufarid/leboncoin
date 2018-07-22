@@ -1,0 +1,196 @@
+html {
+  --color-orange: #f5693a;
+  --color-blue: #4d95e8;
+  --color-cream: #fafafa;
+  --color-black: #1a1a1a;
+  --color-gray: #F9F9F9;
+  --color-grayLight: #D5D5D5;
+
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--color-cream);
+  color: var(--color-black);
+}
+
+.li-nostyle {
+  list-style-type: none;
+  list-style-image: none;
+}
+
+.box_1024 {
+  display: flex;
+  width: 1024px;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+/* HEADER */
+
+header {
+  height: 60px;
+  background-color: var(--color-orange);
+}
+
+header > div {
+  align-items: center;
+}
+
+header img {
+  height: 30px;
+}
+
+.right_menu {
+  flex: 1;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+a {
+  font-size: 13px;
+  line-height: 60px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  /* text-transform: uppercase; */
+  padding: 0 10px;
+}
+
+.nav-list {
+  flex: 1;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.nav-list > li {
+  padding-right: 10px;
+}
+
+.menuItem:first-child {
+  border-right: solid 1px white;
+}
+
+.menuItem {
+  border-left: solid 1px white;
+}
+
+/* SIGN UP */
+
+.box_content {
+  display: flex;
+  padding: 50px;
+  margin-top: 30px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.left_elts {
+  flex: 1;
+}
+
+.body h2 {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+.body h3 {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 600;
+}
+
+.body h4 {
+  font-size: 13px;
+  line-height: 19px;
+  font-weight: 400;
+}
+
+.elt {
+  display: flex;
+}
+
+.elt > i {
+  font-size: 40px;
+  align-self: center;
+  color: var(--color-blue);
+}
+
+.elt > div {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+span {
+  color: var(--color-blue);
+}
+
+.form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.form > h2 {
+  text-align: center;
+}
+
+.form > hr {
+  color: var(--color-orange);
+  background-color: var(--color-orange);
+  width: 100%;
+  padding-bottom: 1px;
+  margin-bottom: 20px;
+}
+
+.form input {
+  margin-bottom: 10px;
+}
+
+.form {
+  font-size: 13px;
+  line-height: 19px;
+  font-weight: 600;
+}
+
+.form label {
+  font-weight: 700;
+}
+
+.input {
+  height: 40px;
+  border-radius: 5px;
+}
+
+.submit {
+  background-color: var(--color-blue);
+  color: white;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+/* LOGIN IN */
+.box_600 {
+  width: 600px;
+  margin: auto;
+}
+
+.form-login {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.form > h3 {
+  text-align: center;
+}
+
+.button {
+  background-color: white;
+  color: var(--color-blue);
+  border: 1px solid var(--color-blue);
+  font-size: 13px;
+  font-weight: 700;
+}

@@ -1,0 +1,37 @@
+{
+  "name": "leboncoin-react",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:3001/",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "js-cookie": "^2.2.0",
+    "mdbreact": "^4.6.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-file-reader": "^1.1.4",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "styled-components": "^3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.2",
+    "styled-jsx-plugin-sass": "^0.2.4"
+  },
+  "plugins": [
+    [
+      "styled-jsx/babel",
+      {
+        "plugins": [
+          "styled-jsx-plugin-sass"
+        ]
+      }
+    ]
+  ]
+}
